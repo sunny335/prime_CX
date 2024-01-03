@@ -21,41 +21,53 @@
 <body>
     <div class="main--container">
         <!-- navbar -->
-        <nav style="padding: 0 130px " class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/logo-dark.png" alt="prime_CX_logo" srcset="" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
-                        <li class="nav-item">
-                            <a class="nav-link active text-base" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-base" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-base" href="#">Feature</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-base" href="#">Faq</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-base" href="#">Blog</a>
-                        </li>
-                    </ul>
-                    <div  class="d-flex gap-3 auth-group w-25">
-                        <button class="btn--primary">Sign Up</button>
-                        <button class="outline-button">Sign In</button>
-                    </div>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./assets/logo-dark.png" alt="prime_CX_logo" srcset="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-base"
+                    aria-current="page"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-base" href="/feature.html">Feature</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-base" href="./faq.html">Faq</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-base" href="./blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-base" href="./price.html">Pricing</a>
+                </li>
+              </ul>
+              <div class="d-flex gap-3 auth-group">
+                <button class="btn--primary">Sign Up</button>
+                <button class="outline-button">Sign In</button>
+              </div>
             </div>
+          </div>
         </nav>
         <!-- navbar -->
         <!-- barnner -->
@@ -92,7 +104,7 @@
             <div class="tab-header">
                 <p>Lead Generation</p>
             </div>
-            <div class="vertical-tab d-flex flex-column flex-lg-row flex-wrap justify-content-between">
+            <div class="vertical-tab d-flex flex-column flex-lg-row flex-wrap justify-content-between gap-3">
                 <ul class="vertical-tab-list">
                     <li class="vertical-tab-list-item pb-1 pb-lg-4">
                         <div class="vertical-tab active-tab" onclick="openTab('tab1', this)">Form Creation</div>
@@ -115,7 +127,7 @@
                         lead forms efficiently with add/edit/delete options. - Map forms to specific chatbots for
                         targeted interactions.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -139,7 +151,7 @@
                     <p class="text-secondary text-center text-lg-start">Toggle lead generation On/Off. - Choose between
                         pre and post-chat form appearances for varied user experiences.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -164,7 +176,7 @@
                     <p class="text-secondary text-center text-lg-start">Dynamically display lead forms based on
                         settings. - Trigger lead forms after idle chat to re-engage users.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -197,12 +209,12 @@
             <div class="tab-header">
                 <p>Question/Answer (QA)</p>
             </div>
-            <div class="QATab d-flex flex-column flex-lg-row flex-wrap justify-content-between">
+            <div class="QATab d-flex flex-column flex-lg-row flex-wrap justify-content-between gap-3">
                 <ul class="vertical-tab-list">
                     <li class="vertical-tab-list-item pb-1 pb-lg-4">
                         <div class="QATab active-QATab" onclick="openQATab('QATab1', this)">QA Module</div>
                     </li>
-                    
+
                 </ul>
 
 
@@ -210,7 +222,7 @@
 
                     <p class="text-secondary text-center text-lg-start">Configure pre-set responses for common questions. Add new questions and responses dynamically. Consider CSV upload for efficient QA management.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -228,7 +240,7 @@
                         </div>
                     </div>
                 </div>
-                
+
 
 
             </div>
@@ -241,12 +253,12 @@
             <div class="tab-header">
                 <p>Calendar Booking </p>
             </div>
-            <div class="BookingTab d-flex flex-column flex-lg-row flex-wrap justify-content-between">
+            <div class="BookingTab d-flex flex-column flex-lg-row flex-wrap justify-content-between gap-3">
                 <ul class="vertical-tab-list">
                     <li class="vertical-tab-list-item pb-1 pb-lg-4">
                         <div class="BookingTab active-BookingTab" onclick="openBookingTab('BookingTab1', this)">Booking Appointments </div>
                     </li>
-                   
+
                 </ul>
 
 
@@ -254,7 +266,7 @@
 
                     <p class="text-secondary text-center text-lg-start">Specify text for appointment basis. - Integrate Google Calendar for streamlined availability.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -272,7 +284,7 @@
                         </div>
                     </div>
                 </div>
-            
+
 
 
             </div>
@@ -286,12 +298,12 @@
             <div class="tab-header">
                 <p>Agent Handoff</p>
             </div>
-            <div class="AgentTab d-flex flex-column flex-lg-row flex-wrap justify-content-between">
+            <div class="AgentTab d-flex flex-column flex-lg-row flex-wrap justify-content-between gap-3">
                 <ul class="vertical-tab-list">
                     <li class="vertical-tab-list-item pb-1 pb-lg-4">
                         <div class="AgentTab active-AgentTab" onclick="openAgentTab('AgentTab1', this)">Agent Handoff Setting </div>
                     </li>
-                   
+
                 </ul>
 
 
@@ -299,7 +311,7 @@
 
                     <p class="text-secondary text-center text-lg-start">Enable/Disable agent handoff. - Select handoff channels (Facebook, WhatsApp, Email, etc.). Customize email form for seamless handoff. Provide public URL of chat at the time of handoff for reference.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -317,55 +329,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="AgentTab2" class="Agent-tab-content vertical-tab-content-main ">
 
-                    <p class="text-secondary text-center text-lg-start">Toggle lead generation On/Off. - Choose between
-                        pre and post-chat form appearances for varied user experiences.</p>
-
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
-                        <div class="feature-card">
-
-                            <img src="./assets/feature-img.png" alt="" srcset="">
-                            <p class="fs-6 text-black fw-bold text-center">Optimize lead capture for webinar sign-ups.
-                            </p>
-                        </div>
-                        <div class="feature-card">
-
-                            <img src="./assets/feature-img.png" alt="" srcset="">
-                            <p class="fs-6 text-black fw-bold text-center">Prompt users for feedback after chat
-                                interactions. </p>
-                        </div>
-                        <div class="feature-card">
-
-                            <img src="./assets/feature-img.png" alt="" srcset="">
-                            <p class="fs-6 text-black fw-bold text-center">Schedule consultations seamlessly. </p>
-                        </div>
-                    </div>
-                </div>
-                <div id="AgentTab3" class="Agent-tab-content vertical-tab-content-main ">
-
-                    <p class="text-secondary text-center text-lg-start">Dynamically display lead forms based on
-                        settings. - Trigger lead forms after idle chat to re-engage users.</p>
-
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
-                        <div class="feature-card">
-
-                            <img src="./assets/feature-img.png" alt="" srcset="">
-                            <p class="fs-6 text-black fw-bold text-center">Capture leads during marketing webinars.</p>
-                        </div>
-                        <div class="feature-card">
-
-                            <img src="./assets/feature-img.png" alt="" srcset="">
-                            <p class="fs-6 text-black fw-bold text-center">Gather feedback with post-chat forms.</p>
-                        </div>
-                        <div class="feature-card">
-
-                            <img src="./assets/feature-img.png" alt="" srcset="">
-                            <p class="fs-6 text-black fw-bold text-center">Schedule campus tours for prospective
-                                students. </p>
-                        </div>
-                    </div>
-                </div>
 
 
             </div>
@@ -378,7 +342,7 @@
             <div class="tab-header">
                 <p>Chatbot Customization</p>
             </div>
-            <div class="chatbot-tab d-flex flex-column flex-lg-row flex-wrap justify-content-between">
+            <div class="chatbot-tab d-flex flex-column flex-lg-row flex-wrap justify-content-between gap-3">
                 <ul class="vertical-tab-list">
                     <li class="vertical-tab-list-item pb-1 pb-lg-4">
                         <div class="chatbot-tab active-chatbot-tab" onclick="openChatbotTab('chatbot1', this)">Customization Features</div>
@@ -397,7 +361,7 @@
 
                     <p class="text-secondary text-center text-lg-start">Add company details for a personalized touch. - Customize chatbot colors, logo, and picture. - Set welcome messages and guidelines for a unique user experience..</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -419,7 +383,7 @@
 
                     <p class="text-secondary text-center text-lg-start">Upload files up to 100MB (PDFs, DOCs, CSVs, website URLs). - Exclude specific URLs for focused training.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -442,7 +406,7 @@
 
                     <p class="text-secondary text-center text-lg-start">Train bot for common interactions. - Configure responses for specific triggers.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -474,7 +438,7 @@
             <div class="tab-header">
                 <p>Review & Analytics</p>
             </div>
-            <div class="reviewTab d-flex flex-column flex-lg-row flex-wrap justify-content-between">
+            <div class="reviewTab d-flex flex-column flex-lg-row flex-wrap justify-content-between gap-3">
                 <ul class="vertical-tab-list">
                     <li class="vertical-tab-list-item pb-1 pb-lg-4">
                         <div class="reviewTab active-reviewTab" onclick="openReviewTab('reviewTab1', this)">Fine Tuning & Analytics</div>
@@ -482,7 +446,7 @@
                     <li class="vertical-tab-list-item pb-1 pb-lg-4">
                         <div class="reviewTab" onclick="openReviewTab('reviewTab2', this)">Subscription Management</div>
                     </li>
-                   
+
                 </ul>
 
 
@@ -490,7 +454,7 @@
 
                     <p class="text-secondary text-center text-lg-start">Manually fix inaccurate responses. - Review chat logs for continuous improvement. - Export chat data for further analysis.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -512,7 +476,7 @@
 
                     <p class="text-secondary text-center text-lg-start">Display available plans and features for user selection. - Monitor chatbot usage for billing accuracy. - Adjust plans based on evolving needs.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -531,7 +495,7 @@
                         </div>
                     </div>
                 </div>
-                
+
 
 
             </div>
@@ -545,7 +509,7 @@
             <div class="tab-header">
                 <p>Agency Management</p>
             </div>
-            <div class="agencyTab d-flex flex-column flex-lg-row flex-wrap justify-content-between">
+            <div class="agencyTab d-flex flex-column flex-lg-row flex-wrap justify-content-between gap-3">
                 <ul class="vertical-tab-list">
                     <li class="vertical-tab-list-item pb-1 pb-lg-4">
                         <div class="agencyTab active-agencyTab" onclick="openAgencyTab('agencyTab1', this)">Agency Dashboard</div>
@@ -553,7 +517,7 @@
                     <li class="vertical-tab-list-item pb-1 pb-lg-4">
                         <div class="agencyTab" onclick="openAgencyTab('agencyTab2', this)">User Invitations & API</div>
                     </li>
-                   
+
                 </ul>
 
 
@@ -561,7 +525,7 @@
 
                     <p class="text-secondary text-center text-lg-start">Overview of clients, MRR, and total bots on the dashboard. - Update agency details for accurate branding. - Manage billing and subscriptions seamlessly.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -583,7 +547,7 @@
 
                     <p class="text-secondary text-center text-lg-start">Invite users to manage the agency account. - Add own ChatGPT API for advanced integrations.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -602,7 +566,7 @@
                         </div>
                     </div>
                 </div>
-               
+
 
 
             </div>
@@ -620,7 +584,7 @@
             <div class="tab-header">
                 <p>Additional Options</p>
             </div>
-            <div class="vertical-tab-option d-flex flex-wrap justify-content-between">
+            <div class="vertical-tab-option d-flex flex-wrap justify-content-between gap-3">
                 <ul class="vertical-tab-list">
                     <li class="vertical-tab-list-item  pb-1 pb-lg-4">
                         <div class="vertical-tab option-active" onclick="openOptionTab('option1', this)">Import
@@ -663,7 +627,7 @@
                     <p class="text-secondary text-center text-lg-start">Enable the import of documents in various
                         formats (PDF, DOC, XLS, etc.).</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -678,7 +642,7 @@
                     <p class="text-secondary text-center text-lg-start">Include editable contact forms within the
                         chatbot for user inquiries</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -693,7 +657,7 @@
                     <p class="text-secondary text-center text-lg-start">Allow users to modify the chat widget's
                         appearance, including colors, logos, and positioning.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -708,7 +672,7 @@
                     <p class="text-secondary text-center text-lg-start">Provide options to customize the chatbot's
                         responses, tone, and personality for brand alignment</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -721,7 +685,7 @@
                 <div id="option5" class="tab-option vertical-tab-content-main">
                     Enable sharing of pre-configured AI agents between users or agencies for collaborative efforts.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -736,7 +700,7 @@
                     <p class="text-secondary text-center text-lg-start">Facilitate easy integration with common
                         platforms, ensuring seamless connectivity.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -751,7 +715,7 @@
                     <p class="text-secondary text-center text-lg-start">Provide a user-friendly, no-code builder for
                         chatbot creation and customization.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -765,7 +729,7 @@
                     <p class="text-secondary text-center text-lg-start">Offer fine-tuning options to enhance the
                         chatbot's understanding and responses over time.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">
@@ -780,7 +744,7 @@
                     <p class="text-secondary text-center text-lg-start">Enable chatbots to communicate in multiple
                         languages, catering to a diverse user base.</p>
 
-                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-stretch mt-5">
+                    <div class="d-flex flex-column flex-lg-row gap-3 justify-content-between align-items-center align-items-lg-stretch mt-5">
                         <div class="feature-card">
 
                             <img src="./assets/feature-img.png" alt="" srcset="">

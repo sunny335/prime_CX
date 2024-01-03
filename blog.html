@@ -36,42 +36,54 @@
         style="background-image: url('./assets/blue_dot.png')"
         class="blog-section"
       >
-         <nav class="navbar navbar-expand-lg navbar-light  border-bottom">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/logo-dark.png" alt="prime_CX_logo" srcset="" />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
-              <li class="nav-item">
-                <a class="nav-link active text-base" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-base" href="price.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-base" href="/feature.html">Feature</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-base" href="#">Faq</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-base" href="#">Blog</a>
-              </li>
-            </ul>
-            <div class="d-flex gap-3 auth-group">
-              <button class="btn--primary">Sign Up</button>
-              <button class="outline-button">Sign In</button>
+       <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+              <img src="./assets/logo-dark.png" alt="prime_CX_logo" srcset="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-base"
+                    aria-current="page"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-base" href="/feature.html">Feature</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-base" href="./faq.html">Faq</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-base" href="./blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-base" href="./price.html">Pricing</a>
+                </li>
+              </ul>
+              <div class="d-flex gap-3 auth-group">
+                <button class="btn--primary">Sign Up</button>
+                <button class="outline-button">Sign In</button>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
         <div
           class="section-faq d-flex flex-column flex-lg-row justify-content-between align-items-center"
         >
@@ -81,12 +93,14 @@
             alt=""
             srcset=""
           />
-          <h1 class="banner-title text-center">Blog</h1>
+          <div class=" d-flex flex-column">
+            <h1 class="banner-title text-center">Blog</h1>
           <p class="sub-heading text-secondary">
             From best practices to case studies, the blog section offers a
             wealth of information for businesses looking to improve customer
             engagement and support through chat bots.
           </p>
+          </div>
           <img src="./assets/blog-banner-2.png" alt="" srcset="" />
         </div>
       </section>
@@ -99,7 +113,7 @@
           class="d-flex justify-content-start align-items-center gap-4 mt-3 mb-5 horizon-tab-item"
         >
           <button class="horizon-tab flex-1" onclick="openTab('horizon-tab-1')">
-            <span class="d-block">Select your categories</span>
+            Select your categories
           </button>
           <button class="horizon-tab flex-1" onclick="openTab('horizon-tab-2')">
             Dixa life
