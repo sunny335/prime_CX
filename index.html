@@ -333,7 +333,7 @@
                   srcset=""
                 />
                 <div>
-                  <p style="white-space: nowrap title w-100 text-start" class="title">
+                  <p style="white-space: nowrap ;" class="title w-100 text-start ">
                     Set up starter questions
                   </p>
                   <p class="description p-0">
@@ -354,7 +354,7 @@
                   alt=""
                   srcset=""
                 />
-                <p class="title w-100 text-start">Capture Visitor Data</p>
+                <p class="title w-100 text-start white-space">Capture Visitor Data</p>
                 <p class="description p-0">
                   You can now set up form fields to capture user data.This will
                   help you keep track of all your chats with that person.You
@@ -372,7 +372,7 @@
                   alt=""
                   srcset=""
                 />
-                <p class="title title w-100 text-start">Support All Platforms</p>
+                <p class="title title w-100 text-start white-space">Support All Platforms</p>
                 <p class="description p-0 m-0">
                   No matter what platform you use for your site. We support all
                   platforms and custom codes. As long as you have a website, you
@@ -431,10 +431,11 @@
       <section class="service-section d-none d-lg-block">
         <h2 class="heading">Could you provide me a good title</h2>
 
-        <div class="d-flex flex-wrap gap-4 mt-5">
+        <div class="d-flex flex-wrap  justify-content-center justify-content-xl-start gap-30 mt-5 mx-auto">
           <div
             class="service-card d-flex flex-column justify-content-center align-items-start gap-3"
           >
+
             <img src="./assets/service-icon.png" alt="" srcset="" />
             <p class="service-title">Import Docs/PDF</p>
             <p class="service-description">
@@ -679,7 +680,7 @@
       <!-- results -->
       <section class="result-section">
         <div>
-          <h2 class="heading text-center text-lg-start">Our latest results</h2>
+          <h2 class="heading text-center text-lg-start ps-4">Our latest results</h2>
         </div>
         <div class="slider-container">
           <!-- Custom next and prev buttons -->
@@ -855,7 +856,7 @@
       <!-- about us -->
       <section class="about-section">
         <div>
-          <h2 class="heading text-center text-lg-start">
+          <h2 class="heading text-center text-lg-start ps-4">
             What our Client say about us
           </h2>
         </div>
@@ -1176,8 +1177,9 @@
       // Initialize the Slick Slider
       document.addEventListener('DOMContentLoaded', function () {
         $('.slider').slick({
-          slidesToShow: 3, // Set the number of items to show at a time
+          slidesToShow: 3.5, // Set the number of items to show at a time
           slidesToScroll: 1, // Set the number of items to scroll at a time
+          infinite: false,
           autoplay: false, // Set to true for autoplay
           autoplaySpeed: 2000, // Set the autoplay speed in milliseconds
           dots: false, // Set to true to display navigation dots
