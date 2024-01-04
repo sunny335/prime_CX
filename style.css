@@ -80,6 +80,24 @@ nav {
 
 }
 
+.section-faq-main {
+  position: relative;
+  background-color: transparent !important;
+background-image: url('./assets/blue_dot.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: top;
+
+
+
+}
+
+  .banner-div {
+
+    min-height: 450px;
+  }
+
 .blog-section {
   position: relative;
   background-color: transparent !important;
@@ -107,20 +125,20 @@ nav {
   position: relative;
   background-color: transparent !important;
   background-image: url('./assets/features-bg-banner.png');
-  background-size: 100% 100%;
+  background-size: auto;
   background-repeat: no-repeat;
   object-fit: cover;
-  object-position: top;
+  /* object-position: top; */
 }
 
 .section-price-main {
   position: relative;
   background-color: transparent !important;
   background-image: url('./assets/price-banner.png');
-  background-size: 100% 100%;
+  background-size: auto;
   background-repeat: no-repeat;
   object-fit: cover;
-  object-position: top;
+
 }
 
 .banner {
@@ -177,7 +195,15 @@ nav {
 
 
 }
+.faq-banner-img{
+  max-width: 345px;
+  width: 100%;
+}
 
+.blog-banner-img{
+  width: 100%;
+   max-width: 345px;
+}
 .orange-round {
   position: absolute;
   bottom: -36px;
@@ -308,6 +334,8 @@ nav {
 
   overflow-x: auto;
 }
+
+
 
 
 .features-section .heading {
@@ -516,7 +544,7 @@ nav {
 
   box-shadow: 0px 0px 10px 0px rgba(29, 41, 57, 0.06);
 
-  width: 30.7%;
+  width: calc(33.33% - 20px)
 
 }
 
@@ -665,7 +693,10 @@ nav {
   padding: 0 0 0 104px;
   margin-bottom: 135px;
 }
-
+.more-news-section{
+  padding: 0 130px;
+   margin-bottom: 160px;
+}
 
 
 .result-card {
@@ -722,7 +753,7 @@ nav {
 
 .custom-slider-btn {
   top: -57px;
-  right: 131px;
+right: 225px;
   justify-content: end;
 }
 
@@ -748,7 +779,7 @@ nav {
 }
 
 .about-section {
-  padding: 0 90px;
+ padding: 0 0 0 104px;
   margin-bottom: 160px;
 }
 
@@ -828,7 +859,7 @@ nav {
 
 .custom-slider-btn-2 {
   top: -56px;
-  right: 43px;
+right: 225px;
 }
 
 .custom-slider-btn-2 div {
@@ -1611,6 +1642,10 @@ article {
   .banner-div {
     gap: 50px;
   }
+
+  nav{
+        padding: 0 60px !important;
+  }
 }
 
 @media (min-width:1160px) {
@@ -1622,7 +1657,7 @@ article {
 
   .banner-div {
     height: 60vh;
-    min-height: 61vh;
+    /* min-height: 61vh; */
   }
 
   .hand-img {
@@ -1642,6 +1677,14 @@ article {
 @media (max-width:1277px) {
   .footer-header {
     padding: 80px 12%;
+  }
+  .section-faq{
+        padding: 100px 38px 0 38px;
+        gap: 2px;
+  }
+
+  .blog-section-header{
+    padding: 120px 38px 25px 38px;
   }
 }
 
@@ -1722,7 +1765,13 @@ article {
   }
 }
 @media (max-width:992px) {
+  .section-price .header {
+    padding: 0 132px;
+}
+.result-section {
+    padding: 0 120px 0 104px;
 
+}
   .footer-header .heading {
     font-size: 24px;
   }
@@ -1793,6 +1842,18 @@ article {
 }
 
 @media (max-width:767px) {
+  .more-news-section{
+    padding: 0 32px;
+  }
+  .card-6-title-h{
+height: auto;
+  }
+  .card-7-title-h{
+height: auto;
+  }
+  .card-8-title-h{
+height: auto;
+  }
   .support-card{
     gap: 12px;
   }
@@ -1824,13 +1885,17 @@ article {
 
     padding: 48px 32px 20px 32px;
   }
-
+.section-faq-main {
+   background-image: url('./assets/blog-bg-mobile.png');
+   background-size: auto;
+}
   .feature-section {
     background-image: url('./assets/features-bg-banner-mobile.png');
     background-size: cover;
   }
 
-  .feature-section {
+
+  .section-price-main {
     background-image: url('./assets/price-banner-mobile.png.png');
     background-size: cover;
   }
@@ -2260,15 +2325,15 @@ article {
   }
 }
 
-@media (min-wdith:1440px) {
+@media (min-width:1440px) {
   .card-3 img {
-    margin-top: -7%;
+        margin-top: -110px;
     margin-right: -6%;
   }
 
   .card-4 img {
 
-    margin-top: -62px;
+    margin-top: -63px;
 
   }
 
@@ -2280,4 +2345,32 @@ article {
     margin-top: -7%;
   }
 
+}
+
+@media (max-width:1427px) {
+    .card-6-title-h{
+height: 70px;
+  }
+  .card-7-title-h{
+height: 70px;
+  }
+  .card-8-title-h{
+height: 80px;
+  }
+}
+
+@media (max-width:1100px) {
+  .custom-slider-btn-2{
+    right: 77px;
+  }
+}
+
+@media (max-width:1058px) {
+    .vertical-tab-list {
+    width: 100%;
+  }
+
+  .vertical-tab-content-main {
+    width: 100%;
+  }
 }
