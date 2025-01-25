@@ -873,7 +873,7 @@ right: 225px;
 footer {
   background-image: url("data:image/svg+xml,%3Csvg width='1600' height='892' viewBox='0 0 1600 892' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1600 892.002L0 892.002L-7.79813e-05 0.000261947L1600 142.655L1600 892.002Z' fill='%23FF5C36'/%3E%3C/svg%3E%0A");
   background-repeat: no-repeat no-repeat;
-  background-position: center center;
+  /* background-position: center center; */
   background-size: cover;
 }
 
